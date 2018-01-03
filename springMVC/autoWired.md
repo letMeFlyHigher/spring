@@ -4,10 +4,9 @@ autowire详解？？
 
 @autowire 
 
-、、、
+```
 public class PersonServiceBean implements PersonService {
     @Autowired private PersonDao personDao;
-
     public void setPersonDao(PersonDao personDao) {
         this.personDao = personDao;
     }
@@ -17,4 +16,4 @@ public class PersonServiceBean implements PersonService {
         personDao.add();
     }
 }
-、、、
+```
