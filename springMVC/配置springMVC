@@ -1,0 +1,5 @@
+如何配置springMVC
+
+
+1.web.xml
+servlet中配置dispatcher,前端控制器。
